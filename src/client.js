@@ -524,6 +524,7 @@ class RPCClient extends EventEmitter {
         assets,
         party,
         secrets,
+        type: args.type,
         buttons: args.buttons,
         instance: !!args.instance,
       },
